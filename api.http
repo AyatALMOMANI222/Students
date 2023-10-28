@@ -1,0 +1,50 @@
+
+GET  http://localhost:3001/classes HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:3001/classes HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" :"ayat",
+    "id" : " "
+}
+
+###
+DELETE http://localhost:3001/classes/id HTTP/1.1
+Content-Type: application/json
+
+###
+PUT http://localhost:3001/classes/id HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"ameer"
+}
+
+###
+
+GET  http://localhost:3001/student HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:3001/student HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" :"ayat",
+    "id" : " "
+}
+
+###
+DELETE http://localhost:3001/student/id HTTP/1.1
+Content-Type: application/json
+
+###
+PUT http://localhost:3001/student/id HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"ameer"
+}
